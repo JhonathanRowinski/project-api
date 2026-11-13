@@ -1,0 +1,90 @@
+
+# ==============================
+# .NET / Build
+# ==============================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+[Ll]ogs/
+[Tt]estResults/
+[Bb]uild/
+
+# ==============================
+# Visual Studio
+# ==============================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+
+# ==============================
+# Visual Studio Code
+# ==============================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ==============================
+# JetBrains Rider
+# ==============================
+.idea/
+*.sln.iml
+
+# ==============================
+# NuGet
+# ==============================
+*.nupkg
+*.snupkg
+.nuget/
+
+# ==============================
+# Entity Framework
+# ==============================
+**/Migrations/*Designer.cs
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# ==============================
+# Certificates / Keys
+# ==============================
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+*.log
+npm-debug.log*
+
+# ==============================
+# Aider
+# ==============================
+.aider*
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v3/
+.aiderignore
